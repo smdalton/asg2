@@ -12,7 +12,11 @@ const char = (props) =>{
 
     return(
         <div style = {style} onClick={props.clicked}>
+        <ul>
+            <li>
             <p>{props.character}</p>
+            </li>
+        </ul>
         </div>
     )
 }
